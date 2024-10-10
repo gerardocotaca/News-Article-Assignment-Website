@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The American Dream</title>
+
+    <style>
+        body {
+            background-color: #f9e79f; /* Light yellow background */
+            color: #333;
+        }
+        /* Dark blue section for "The American Dream" */
+        .dream-section {
+            background-color: #1e3264; /* Dark blue */
+            color: white;
+            padding: 20px;
+            position: relative;
+            margin-bottom: 20px;
+        }
+        /* White box for TNN News and Author info,text aligned to the left */
+        .tnn-news-box {
+            background-color: white;
+            color: black; /* Default black text for both items */
+            padding: 5px 15px; /* Reduce padding for thinner height */
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            width: 350px; /* Make the box longer */
+            text-align: left; /* Align text to the left */
+        }
+        /* Bold and black for TNN News date info */
+        .tnn-news-box p.tnn-date {
+            font-weight: bold;
+            color: black;
+        }
+        /* Black text for author info */
+        .tnn-news-box p.author {
+            color: black;
+        }
+        /* Bold the key text in the dark blue section */
+        .dream-section p.bold-text {
+            font-weight: bold;
+        }
+        /* Section headers (Education, Birthright) */
+        section h3 {
+            background-color: #3c0b64; /* Purple background */
+            color: white;
+            padding: 10px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: transparent;
+        }
+    </style>
+
+</head>
+<body>
+
+<!-- The entire "The American Dream" content inside one dark blue section -->
+<div class="dream-section">
+    <h1>The American Dream</h1>
+    <!-- White box for TNN News and author info -->
+    <div class="tnn-news-box">
+        <p class="tnn-date">TNN News, Tuesday March 6, 8pm EST</p>
+        <p class="author">Author Robert Strausser presents "Survival of the Wealthiest"</p>
+    </div>
+    <p class="bold-text">Work hard and become wealthy?<sup><a href="#footnote" style="color:white;">[1]</a></sup></p>
+    <p class="bold-text">Maybe so, but work alone might not cut it. The following graphs show various paths to prosperity.</p>
+</div>
+
+<main>
+    <section>
+        <h3>Education</h3>
+        <p>More advanced schooling helps. If you can avoid the crushing debt of student loans, all the better. Try to find a major that you're good at and that is good to you.</p>
+        <figure>
+            <img src="Ch4_Project_Image1.JPG" alt="Effect of Education on Retirement Wealth">
+        </figure>
+    </section>
+
+    <section>
+        <h3>Birthright</h3>
+        <p>For accruing wealth, what's even better than education? Being born wealthy. In the graph below, note how the birthright high enders are able to become more wealthy than the education high enders. So before being born, shop around.</p>
+        <figure>
+            <img src="Ch4_Project_Image2.JPG" alt="Effect of Birth Wealth on Retirement Wealth">
+        </figure>
+    </section>
+
+    <aside id="footnote">
+        <p>1. Although the graphs' data is fabricated, the trends are real. See Lisa Keister's "Getting Rich: America's New Rich and How They Got That Way" and Pew Charitable Trusts' "Economic Mobility Project."</p>
+    </aside>
+</main>
+
+<!-- Footer with default yellow background -->
+<footer>
+    <p>&copy; 2024 TNN News</p>
+</footer>
+
+</body>
+</html>

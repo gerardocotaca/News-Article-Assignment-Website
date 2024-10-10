@@ -1,0 +1,47 @@
+body {
+  background-color: #f9e79f; /* Light yellow background */
+  color: #333;
+}
+/* Dark blue section for "The American Dream" */
+.dream-section {
+  background-color: #1e3264; /* Dark blue */
+  color: white;
+  padding: 20px;
+  position: relative;
+  margin-bottom: 20px;
+}
+/* White box for TNN News and Author info, text aligned to the left */
+.tnn-news-box {
+  background-color: white;
+  color: black; /* Default black text for both items */
+  padding: 5px 15px; /* Reduce padding for thinner height */
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 350px; /* Make the box longer */
+  text-align: left; /* Align text to the left */
+}
+/* Bold and black for TNN News date info */
+.tnn-news-box p.tnn-date {
+  font-weight: bold;
+  color: black;
+}
+/* Black text for author info */
+.tnn-news-box p.author {
+  color: black;
+}
+/* Bold the key text in the dark blue section */
+.dream-section p.bold-text {
+  font-weight: bold;
+}
+/* Section headers (Education, Birthright) */
+section h3 {
+  background-color: #3c0b64; /* Purple background */
+  color: white;
+  padding: 10px;
+}
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: transparent;
+}
